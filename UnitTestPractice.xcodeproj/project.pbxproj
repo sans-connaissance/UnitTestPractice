@@ -14,6 +14,9 @@
 		414C19A5277253B500D3941C /* UnitTestPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C19A4277253B500D3941C /* UnitTestPracticeTests.swift */; };
 		414C19AF277253B500D3941C /* UnitTestPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C19AE277253B500D3941C /* UnitTestPracticeUITests.swift */; };
 		414C19B1277253B500D3941C /* UnitTestPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C19B0277253B500D3941C /* UnitTestPracticeUITestsLaunchTests.swift */; };
+		414C19BE277253F800D3941C /* AddTaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C19BD277253F800D3941C /* AddTaskScreen.swift */; };
+		414C19BF277253F800D3941C /* AddTaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C19BD277253F800D3941C /* AddTaskScreen.swift */; };
+		414C19C0277253F800D3941C /* AddTaskScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414C19BD277253F800D3941C /* AddTaskScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,7 @@
 		414C19AA277253B500D3941C /* UnitTestPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		414C19AE277253B500D3941C /* UnitTestPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPracticeUITests.swift; sourceTree = "<group>"; };
 		414C19B0277253B500D3941C /* UnitTestPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		414C19BD277253F800D3941C /* AddTaskScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			children = (
 				414C1993277253B300D3941C /* UnitTestPracticeApp.swift */,
 				414C1995277253B300D3941C /* ContentView.swift */,
+				414C19BD277253F800D3941C /* AddTaskScreen.swift */,
 				414C1997277253B500D3941C /* Assets.xcassets */,
 				414C1999277253B500D3941C /* Preview Content */,
 			);
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414C19BE277253F800D3941C /* AddTaskScreen.swift in Sources */,
 				414C1996277253B300D3941C /* ContentView.swift in Sources */,
 				414C1994277253B300D3941C /* UnitTestPracticeApp.swift in Sources */,
 			);
@@ -266,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414C19BF277253F800D3941C /* AddTaskScreen.swift in Sources */,
 				414C19A5277253B500D3941C /* UnitTestPracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414C19C0277253F800D3941C /* AddTaskScreen.swift in Sources */,
 				414C19AF277253B500D3941C /* UnitTestPracticeUITests.swift in Sources */,
 				414C19B1277253B500D3941C /* UnitTestPracticeUITestsLaunchTests.swift in Sources */,
 			);
