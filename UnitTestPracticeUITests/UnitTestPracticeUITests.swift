@@ -12,7 +12,7 @@ class when_add_new_task_screen_is_presented: XCTestCase {
     var app: XCUIApplication!
     
     override func setUp() {
-        let app = XCUIApplication()
+        app = XCUIApplication()
         app.launch()
         
         let addTaskButton = app.buttons["showAddTaskButton"]
@@ -27,8 +27,20 @@ class when_add_new_task_screen_is_presented: XCTestCase {
     
     func test_ensure_all_required_controls_are_present() {
     
-        XCTAssert(app.textFields["addTaskTextField"].exists)
-        XCTAssert(app.textFields["showAddTaskButton"].exists)
+        XCTAssertTrue(app.textFields["addTaskTextField"].exists)
+        XCTAssertTrue(app.buttons["addTaskButton"].exists)
+        
+    }
+    
+    func test_will_dismiss_modal_after_adding_new_task() {
+        let taskTextField = app.textFields["addTaskTextField"]
+        taskTextField.tap()
+        taskTextField.typeText("Wash the car")
+        
+        let addTaskButton = app.buttons["addTaskButton"]
+        addTaskButton.tap()
+        
+        XCTAssertFalse(addTaskButton.waitForExistence(timeout: 0.5))
         
     }
     
